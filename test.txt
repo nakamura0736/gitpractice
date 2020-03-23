@@ -1,10 +1,28 @@
 練習！！
 
-
+gitのローカルリポジトリを作成
 git init
 
+ステージングエリアへ追加
 git add test.txt
 
+ステータス確認
 git status
 
+ローカルリポジトリへコミット
 git commit
+
+ディレクトリ内の全てのファイルをステージングエリアへ追加
+git add .
+
+コミット履歴を確認
+git log
+
+コミット履歴の①行目を確認
+git log --oneline
+
+リモートリポジトリを登録
+git remote add origin https://github.com/nakamura0736/gitpractice.git
+
+ローカルリポジトリからリモートリポジトリへプッシュ
+git push origin master
