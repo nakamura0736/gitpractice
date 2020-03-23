@@ -26,3 +26,7 @@ git remote add origin https://github.com/nakamura0736/gitpractice.git
 
 ローカルリポジトリからリモートリポジトリへプッシュ
 git push origin master
+
+------
+リモートリポジトリのマスタブランチからローカルへpull
+git pull origin master
